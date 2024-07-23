@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gradient Image Generator</h1>
+        <div class="controls">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" value="#ff0000">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" value="#0000ff">
+            <button id="generateBtn">Generate Gradient</button>
+        </div>
+        <canvas id="gradientCanvas" width="800" height="600"></canvas>
+        <button id="downloadBtn">Download Image</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
